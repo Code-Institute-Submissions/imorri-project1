@@ -1,0 +1,27 @@
+/* body css */
+body {
+    background-color: #4a4a4f;
+    font-family: 'Oswald' sans-serif;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+/* nav css */
+nav ul {
+    background-color: #4a4aAa;
+    width: 80px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald' sans-serif;
+}
+/* hearder css */
+header{background-color: #4a4a;}
+
+
+div table{
+    font-family: 'Oswald' sans-serif;
+    
+}
