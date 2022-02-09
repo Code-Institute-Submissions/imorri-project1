@@ -16,12 +16,35 @@ nav ul {
     padding: 0;
     margin: 0;
     font-family: 'Oswald' sans-serif;
+    float: inline-start;
 }
 /* hearder css */
-header{background-color: #4a4a;}
+header{
+    background-image: url(/images/klebeach.JPG);
+    background-color: #4a4a;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+    width: 100&;
+    text-align: right;
+    height: 210px;
+    padding: 20px;
+}
 
 
 div table{
     font-family: 'Oswald' sans-serif;
     
+    
+}
+#specs-image {
+    text-align:center;
+    background-image: url(/images/klehouse.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+   
 }
