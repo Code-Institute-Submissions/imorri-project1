@@ -1,3 +1,53 @@
-:root{
-    --primary-color: rgba
+.menu-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.menu-div .switcher {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+
+}
+.dropdown{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background: #3c3c44;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu-div .dropdown > div {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-div .dropdown > div:before,
+.menu-div .dropdown > div:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+.menu-div .dropdown > div:after {
+    top: 10px;
 }
