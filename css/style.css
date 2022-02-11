@@ -20,31 +20,50 @@ nav ul {
 }
 /* hearder css */
 header{
-    background-image: url(/images/klebeach.JPG);
+    background-image: url(/images/kle-beach-header.png);
     background-color: #4a4a;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0%;
-    width: 100&;
+    width: 100;
     text-align: right;
     height: 210px;
     padding: 20px;
 }
-
-
-div table{
-    font-family: 'Oswald' sans-serif;
-    
-    
-}
 #specs-image {
-    text-align:center;
-    background-image: url(/images/klehouse.JPG);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 600px;
-    height: 400px;
-   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/klehouse.JPG);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:centre top;
+  width: 600px;
+  height: 400px;
+ 
 }
+div, h2 {text-align: center;}
+
+.specs, table {
+  width: 60%;
+  border-collapse: collapse;
+  background: #545455;
+  color: #a1a1a3;
+}
+.model-history, table {
+    width: 20%;
+    border-collapse: collapse;
+    background: #eaecf0;
+    color: #a1a1a3;
+  }
+
+  .model-history, table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  .model-history, th {
+    text-align: center;
+    height: 10px;
+  }
