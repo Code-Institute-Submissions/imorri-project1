@@ -1,53 +1,47 @@
-.menu-div{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-.menu-div .switcher {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    opacity: 0;
-
-}
-.dropdown{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 60px;
-    height: 60px;
-    padding: 1rem;
-    background: #3c3c44;;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.menu-div .dropdown > div {
-    position: relative;
+/* [ON BIG SCREEN] */
+/* (A) WRAPPER */
+ #navmenu {
     width: 100%;
-    height: 2px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.menu-div .dropdown > div:before,
-.menu-div .dropdown > div:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    top: -10px;
-    width: 100%;
-    height: 2px;
-    background: #fff;
-}
-.menu-div .dropdown > div:after {
-    top: 10px;
-}
+    background: #1e1e1f;
+
+  }
+  
+  /* (B) HORIZONTAL MENU ITEMS */
+  #menuitems { display: flex; }
+  #menuitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  #menuitems a:hover { background: #4a4a; }
+  
+  /* (C) HIDE HAMBURGER */
+  #navmenu label, #dropmenu { display: none; }
+
+  /* [ON SMALL SCREENS] */
+@media screen and (max-width: 670px){
+    /* (A) BREAK INTO VERTICAL MENU */
+    #menuitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #333;
+    }
+   
+    /* small scren menu */
+    #navmenu label { 
+      display: inline-block; 
+      color: white;
+      background: #4a4a;;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    /* Switch Memu */
+    #menuitems { display: none; }
+    #navmenu input:checked ~ #menuitems { display: block; }
+  }

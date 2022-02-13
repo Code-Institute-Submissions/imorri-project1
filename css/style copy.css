@@ -1,6 +1,5 @@
 *{
   box-sizing: border-box;
-  @media (max-width: 670px)
 }
 
 /* body css */
@@ -42,7 +41,6 @@ div, h2 {text-align: center;}
 .specs, table {
   float: right;
   width: 60%;
-  padding: 10px;
   border-collapse: collapse;
   background: #545455;
   color: #a1a1a3;
@@ -52,28 +50,32 @@ div, h2 {text-align: center;}
 .model-history, table {
   float: left;
   width: 40%;
-  padding: 10px;
   border-collapse: collapse;
   background: #eaecf0;
   color: #a1a1a3;
 }
 
-  table, th, td {
+  .model-history, table,
+  th,
+  td {
     border: 1px solid black;
-    text-align: center;
   }
-  
+  .model-history, th {
+    text-align: center;
+    height: 10px;
+  }
 
   footer {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #4a4a;
   padding: 1em;
+  text-align: center;
   width: 100%;
   position: fixed;
   bottom: 0;
   right: 0;
-  font-style: italic;
-  text-align: right;
+  z-index: 3;
+  text-transform: uppercase;
   }
   
 

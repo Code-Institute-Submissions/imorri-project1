@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav-menu.css">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">home page</a></li>
-            <li><a href="specs.html">bike specs</a></li>
-            <li><a href="links.html">links</a></li>
-        </ul>
+<!-- Nav Menu -->
+<nav id="navmenu">
+  <!-- THE Menu -->
+  <label for="dropmenu">&#9776;</label>
+  <input type="checkbox" id="dropmenu"/>
+ 
+  <!-- MENU ITEMS -->
+  <div id="menuitems">
+    <a href="nav-menu.html">Nav</a>
+    <a href="index.html">Home</a>
+    <a href="specs.html">Specification</a>
+    <a href="links.html">Links</a>
+  </div>
+</nav>
 
-    </nav>
 <div>
   <div id="specs-image"></div>
   <h2>Kawasaki KLE500 Specifications</h2>
@@ -39,7 +47,7 @@
 <div>
     <table class="model-history">
       <tbody><tr>
-      <th>History
+      <th colspan="2">History
       </th></tr>
       <tr>
       <th >Year</th>
@@ -165,6 +173,7 @@
       </p>
       </td></tr>
       </tbody></table>
+
 </div>
       <div>
         <table class="specs">
@@ -401,6 +410,16 @@
           </td></tr>
           </tbody></table>
 </div>
+<footer>
 
+  <span>Find us on:</span>
+
+  <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+  <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
+  <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
+
+  <p>Copyright © Coders Coffeehouse 2020</p>
+
+</footer>
 </body>
 </html>
