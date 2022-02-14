@@ -1,18 +1,20 @@
 *{
   box-sizing: border-box;
-  @media (max-width: 670px)
+  @media (max-width: 640px)
 }
 
 /* body css */
 body {
-    background-color: #4a4a4f;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    padding: 5px;
-    margin: 20px;
-}
+  background: linear-gradient(342deg, rgb(45, 43, 58) 0%, rgba(69,64,74,1) 47%, rgb(30, 27, 39) 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 5px;
+  margin: 20px;
+}  
+  
+
 /* hearder css */
-header{
+#header-image{
     background-image: url(/images/kle-beach-header.png);
     background-color: #4a4a;
     background-repeat: no-repeat;
@@ -22,27 +24,67 @@ header{
     width: 100;
     text-align: right;
     height: 210px;
-    padding: 20px;
+ }
+
+#my-kle{
+  background-color: #a1a1a3;
+  margin-top: 15px;
+  float: left;
+  margin-left: 20px;
+  padding: 15px;
+  width: 30%;
+  border-radius: 2rem;
+}
+
+#my-return{
+  background-color: #545455;
+  float: left;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 15px;
+  width: 30%;
+
+  border-radius: 2rem;
+}
+
+#dual-article{
+  background-color:darkslategrey;
+  float: left;
+  margin-top: 25px;
+  margin-left: 20px;
+  padding: 15px;
+  width: 30%;
+  border-radius: 2rem;
+
 }
 #specs-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(/images/klehouse.JPG);
-  background-size:cover;
+  background-image: url(/images/kle-specs-header.png);
+  background-color: #4a4a;
   background-repeat: no-repeat;
-  background-position:centre top;
-  width: 600px;
-  height: 400px;
- 
+  background-position: center;
+  background-size: cover;
+  margin: 0%;
+  width: 100;
+  height: 210px;
+  padding: 20px;
 }
 div, h2 {text-align: center;}
+div > #specs-bgd {
+  background: url(/images/gears3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  margin: 0%;
+  width: 100;
+}
 
 
 .specs, table {
   float: right;
-  width: 60%;
-  padding: 10px;
+  width: 65%;
+  padding: 15px;
+  margin: 5px;
   border-collapse: collapse;
   background: #545455;
   color: #a1a1a3;
@@ -51,8 +93,9 @@ div, h2 {text-align: center;}
 }
 .model-history, table {
   float: left;
-  width: 40%;
-  padding: 10px;
+  width: 30%;
+  padding: 15px;
+  margin: 5px;
   border-collapse: collapse;
   background: #eaecf0;
   color: #a1a1a3;
