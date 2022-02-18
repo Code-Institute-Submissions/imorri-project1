@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+
+/* body css */
+body {
+    background-color: #4a4a4f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+}
+/* hearder css */
+header{
+    background-image: url(/images/kle-beach-header.png);
+    background-color: #4a4a;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+    width: 100;
+    text-align: right;
+    height: 210px;
+    padding: 20px;
+}
+#specs-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/klehouse.JPG);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:centre top;
+  width: 600px;
+  height: 400px;
+ 
+}
+div, h2 {text-align: center;}
+
+
+.specs, table {
+  float: right;
+  width: 60%;
+  border-collapse: collapse;
+  background: #545455;
+  color: #a1a1a3;
+ 
+  
+}
+.model-history, table {
+  float: left;
+  width: 40%;
+  border-collapse: collapse;
+  background: #eaecf0;
+  color: #a1a1a3;
+}
+
+  .model-history, table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  .model-history, th {
+    text-align: center;
+    height: 10px;
+  }
+
+  footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #4a4a;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  text-transform: uppercase;
+  }
+  
+
+
+

@@ -1,0 +1,47 @@
+/* [ON BIG SCREEN] */
+/* (A) WRAPPER */
+ #navmenu {
+    width: 100%;
+    background: #1e1e1f;
+
+  }
+  
+  /* (B) HORIZONTAL MENU ITEMS */
+  #menuitems { display: flex; }
+  #menuitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  #menuitems a:hover { background: #4a4a; }
+  
+  /* (C) HIDE HAMBURGER */
+  #navmenu label, #dropmenu { display: none; }
+
+  /* [ON SMALL SCREENS] */
+@media screen and (max-width: 670px){
+    /* (A) BREAK INTO VERTICAL MENU */
+    #menuitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #333;
+    }
+   
+    /* small scren menu */
+    #navmenu label { 
+      display: inline-block; 
+      color: white;
+      background: #4a4a;;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    /* Switch Memu */
+    #menuitems { display: none; }
+    #navmenu input:checked ~ #menuitems { display: block; }
+  }

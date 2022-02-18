@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/nav-menu.css">
     <title>Links and additional info</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/nav-menu.css" />
+    
 </head>
 <body>
 <!-- Nav Menu -->
@@ -15,67 +16,65 @@
   <label for="dropmenu">&#9776;</label>
   <input type="checkbox" id="dropmenu"/>
  
-  <!-- MENU ITEMS -->
+  <!-- MENU Items -->
   <div id="menuitems">
-    <a href="index.html">Home</a>
-    <a href="specs.html">History & Specifications</a>
-    <a href="gallary.html">Gallary</a>
-    <a href="contact.html">Contact Me</a>
-    
+    <a href="index.html" aria-label="Home Menu">Home</a>
+    <a href="specs.html" aria-label="History & Specifications">History & Specifications</a>
+    <a href="contact.html" aria-label="Contact Me">Contact Me</a> 
   </div>
 </nav>
 
+ <!-- Conact Page image header -->
 <header>
- <div div id="contact-image">
+ <div id="contact-image" title="image of bike with cat sitting on top box" aria-label="image of bike with cat sitting on top box">
 <h1>Feedback and Questions</h1>
-<p>I'd like to hear your feedback and will try and answer any questions you may have about the KLE</p>
+<p>I'd like to hear your feedback and will try 
+  and answer any questions you may have about the KLE</p>
 </div>
 </header>
 <form action="https://formdump.codeinstitute.net" method="POST">
 
-	<br>
+<br>
+ <!-- Fedback and Contact Form -->
 <fieldset>
 
   <div class="float-left">
-    <label for="email-field" class="block-label">Email</label>
-    <input id="email-field" type="email" name="email" placeholder="Your email" required="">
+    <label for="email-field" class="block-label" >Email</label>
+    <input id="email-field" type="email" name="email" placeholder="Your email" required="" ar>
   </div>
-
-		<legend>Questions and Feedback</legend>
-		<label for="feedback" class="block-label">Questions & Feedback</label>
+<div>
+		<legend>Questions & Feedback</legend>
+		<label for="feedback" class="block-label"></label>
 	
-		<textarea id="feedback" rows="4" cols="60" name="feedback"></textarea>
+		<textarea id="feedback" rows="4" cols="60" name="feedback" aria-label="test areas for feedback and questions"></textarea>
+</div>  
 
-		
-    
+<!-- Survey Questions -->
 <label for="which-bike" class="block-label">Which bike would you buy</label>
 <select id="which-bike" name="which-bike" required="">
-    <option value="Honda Africa Twin">Honda Africa Twin</option>
-    <option value="BMW GS">BMW GS</option>
+    <option value="Honda-Africa-Twin">Honda Africa Twin</option>
+    <option value="BMW-GS">BMW GS</option>
     <option value="KTM Adventure">KTM Adventure</option>
-    <option value="Yamaha Tenere-700">Yamaha Tenere-700</option>
-    <option value="Suzuki V-Strom">Suzuki V-Strom</option>
-    <option value="Ducati Multistrada">Ducati Multistrada</option>
-    <option value="Triumph Tiger">Triumph Tiger</option>
+    <option value="Yamaha-Tenere-700">Yamaha Tenere-700</option>
+    <option value="Suzuki-V-Strom">Suzuki V-Strom</option>
+    <option value="Ducati-Multistrada">Ducati Multistrada</option>
+    <option value="Triumph-Tiger">Triumph Tiger</option>
     <option value="Other">Other</option>
-  </select>
+</select>
 
-  <input type="submit" class="button" value="Submit">
-  <input type="reset" class="button" value="Reset Form">
+  <input type="submit" class="button" value="Submit" aria-label="Submit button for feedback and questions submission">
+  <input type="reset" class="button" value="Reset Form" aria-label="button to reset the feedback and questions form">
 
 </fieldset>
 </form>
-<br>
+
+<!-- Footer -->
 <footer>
-
   <span>Find Me on:</span>
-
-  <a href="https://www.linkedin.com/in/imorris1/" target="_blank" rel="noopener" aria-label="my linked in page" (link opens in a new tab)>Linkedin</a>
-
-  <p><section> Contact Me:
+  <a href="https://www.linkedin.com/in/imorris1/" target="_blank" rel="noopener" aria-label="my linked in page">Linkedin</a>    
+  <p> Contact Me:
     iannm1@icloud.com
-  </section></p>
-
+  </p>
 </footer>
 </body>
 </html>
