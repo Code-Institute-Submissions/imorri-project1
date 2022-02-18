@@ -1,108 +1,119 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# My KLE 500
 
-Welcome USER_NAME,
+My KLE500 website is deddicated to the owenership of my motorbike.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The KLE500 is father a rare model of bike in europe and it was never available in the US.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Due to its rarity of the KLE and available onlin rescourse I felt there might be a need for a easilly accesable site for other motorcyle enthusiasts.
 
-## Gitpod Reminders
+The the intention of the site it to be a place where anyone wanting to know more can find out some details the history and specification of the bike. The eventual aim would be to devlop the site further with a gallary, accessories page and links to relevant sites.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Devices](media/devices.png)
 
-`python3 -m http.server`
+# Features 
 
-A blue button should appear to click: _Make Public_,
+There are three main sections for the site as follows:
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## My KLE (home page)
+- This section of the site has details about my specific bike, its history, how long I've owned it and my reasons why I purchased it.
+There is also a article section detailing the diffeence between Adventure and Dual Sport categories of motorcycles.
+![Home Page Desltop](media/home-dt.png)
+![Home Page Mobile](media/home-md.png)
 
-A blue button should appear to click: _Make Public_,
+## History & Specifications
+- This section of the site has a breif history of the differnt models and varietes of bike and the specification of the model I own.  The idea being a good refence point for fellow motorcyclists.
+![Specifications Desktop](media/specs.dt.png)
+![Specifications Mobile](media/specs.png)
 
-Another blue button should appear to click: _Open Browser_.
+## Contact & Feedback
+- The is an area where people can contact me and ask questions or leave comment via a form.
+There is also a quick survey for people to vote for there favourite adventure bike, voting for  which one they would purchase.
+![Contact Me Desktop](media/contact-dt.png)
+![Contact Me  Mobile](media/contact-mb.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## The Footer
+  - The footer section includes a link to my Linkedin page and my email address.
+![Footer](media/footer.png)
 
-To log into the Heroku toolbelt CLI:
+# Navigation Bar
+- Featured on all three page there is fully responsive navigation bar,  which includes links to the Home page, History & Specs page and conact page. It is identical in each page to allow for easy navigation.
+- When viewd a small screen/mobile device the menu is seen in the top left as a classic burger menu.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- This will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Nav Bar](media/nav.png)
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Features Left to Implement
+I intended to have additional sections to the site but have reduce the fueture set due to lack if time, Mostly due to the time taken on the navigation bar and device testing.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- GALLERY section with potographs of my bike. 
+- Accesories & Parts 
+- I originally planned to have tiling backround images on all pages but could not find any sutable stock images and it was taking up toomuch time.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Testing 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The Website was tested severl differnt browser and plaforms I have available to test with. Navigation menu fistion, resizing, form data entry were all tested.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- MacOS Desktop 
+	- Safari, Brave & Firefox
+- iOS iPhone 
+	- Safari, Brave & Firefox
+- Linux 
+	- Brave, Firefox & Vivaldi
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+On Mobile devices the navigation bar is reduced to a burger menu interface.  Also the three text boxs across the screen on the home page re-flow to be undeath each other rather than side-by-side seen on desktops browsers.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Lighthouse
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Home
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![Desktop](media/lighthouse-home.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Specifications
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Desktop](media/lighthouse-specs.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Contact
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Desktop](media/lighthouse-contact.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+### Validator Testing 
 
-## FAQ about the uptime script
+- HTML - 
+  - Foud errors were detected and corrected
+https://webformatter.com/html
+https://validator.w3.org/#validate_by_input
 
-**Why have you added this script?**
+- CSS
+- Foud errors were detected most were corrected appart from two of them which I could bot resolve.
+https://jigsaw.w3.org/css-validator
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Deployment
 
-**How will this affect me?**
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The live link can be found here - https://imorri.github.io/project1/index.html
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Credits
+I used the several rescources to help me understnd the with the code I required, these included the following -
 
-**So….?**
+- Slack community
+- code institute tutorials
+- w3shools webside https://www.w3schools.com/ helped me understand and implement flex code.
+- Code0box https://code-boxx.com/ the basis of the nav menu
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Content 
+- All content was prodided by myself.
 
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Media
+- Photo images used throughout the site are my own.
