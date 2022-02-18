@@ -88,6 +88,7 @@ On Mobile devices the navigation bar is reduced to a burger menu interface.  Als
 - Foud errors were detected and corrected.
 
 https://webformatter.com/html
+
 https://validator.w3.org/#validate_by_input
 
 #### CSS
