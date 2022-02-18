@@ -69,27 +69,27 @@ On Mobile devices the navigation bar is reduced to a burger menu interface.  Als
 
 ## Lighthouse
 
-### Home
+### Home Page
 
 ![Desktop](media/lighthouse-home.png)
 
-### Specifications
+### Specifications Page
 
 ![Desktop](media/lighthouse-specs.png)
 
-### Contact
+### Contact Page
 
 ![Desktop](media/lighthouse-contact.png)
 
 
 ### Validator Testing 
 
-- HTML - 
-  - Foud errors were detected and corrected
+#### HTML - 
+- Foud errors were detected and corrected
 https://webformatter.com/html
 https://validator.w3.org/#validate_by_input
 
-- CSS
+#### CSS
 - Foud errors were detected most were corrected appart from two of them which I could bot resolve.
 https://jigsaw.w3.org/css-validator
 
@@ -97,7 +97,7 @@ https://jigsaw.w3.org/css-validator
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
@@ -105,7 +105,7 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - https://imorri.github.io/project1/index.html
 
 ## Credits
-I used the several rescources to help me understnd the with the code I required, these included the following -
+I used the several rescources to help me understnd the with the code I required, these included the following 
 
 - Slack community
 - code institute tutorials
