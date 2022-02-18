@@ -85,12 +85,14 @@ On Mobile devices the navigation bar is reduced to a burger menu interface.  Als
 ### Validator Testing 
 
 #### HTML - 
-- Foud errors were detected and corrected
+- Foud errors were detected and corrected.
+
 https://webformatter.com/html
 https://validator.w3.org/#validate_by_input
 
 #### CSS
 - Foud errors were detected most were corrected appart from two of them which I could bot resolve.
+
 https://jigsaw.w3.org/css-validator
 
 ## Deployment
